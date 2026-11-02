@@ -154,9 +154,9 @@ The application uses AsyncStorage to store event information locally on the devi
 
 Expo Notifications is used to schedule local notification reminders. Users can set reminders for their events and receive notifications at the scheduled time.
 
-## 9. Testing
+## ## 9. Testing
 
-The following application functions were tested:
+The following application functions were tested successfully:
 
 - Creating new events.
 - Validating event input fields.
@@ -165,7 +165,11 @@ The following application functions were tested:
 - Deleting events with confirmation.
 - Searching events by name and date.
 - Scheduling and receiving notification reminders.
-- Saving and loading event information.
+- Saving and loading events using AsyncStorage.
+- Checking empty states and invalid input handling.
+- Testing the application on an Android phone using Expo Go.
+
+All the main application features were tested to ensure that they work correctly.
 
 ## 10. Application Screenshots
 
